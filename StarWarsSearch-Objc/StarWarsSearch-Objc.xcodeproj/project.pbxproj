@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E2C122B2371E4A70083EF4E /* LSIPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C122A2371E4A70083EF4E /* LSIPerson.m */; };
 		BD9AA4DF2371D53400E8D4EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AA4DE2371D53400E8D4EF /* AppDelegate.m */; };
 		BD9AA4E22371D53400E8D4EF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AA4E12371D53400E8D4EF /* SceneDelegate.m */; };
 		BD9AA4EA2371D53500E8D4EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD9AA4E92371D53500E8D4EF /* Assets.xcassets */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E2C12292371E4A70083EF4E /* LSIPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIPerson.h; sourceTree = "<group>"; };
+		9E2C122A2371E4A70083EF4E /* LSIPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIPerson.m; sourceTree = "<group>"; };
 		BD9AA4DA2371D53400E8D4EF /* StarWarsSearch-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "StarWarsSearch-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9AA4DD2371D53400E8D4EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD9AA4DE2371D53400E8D4EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				BD9AA5062371D58300E8D4EF /* LSIPersonSearchTableViewController.h */,
 				BD9AA5072371D58300E8D4EF /* LSIPersonSearchTableViewController.m */,
 				BD9AA5092371D64500E8D4EF /* LSIPersonTableViewCell.h */,
+				9E2C12292371E4A70083EF4E /* LSIPerson.h */,
+				9E2C122A2371E4A70083EF4E /* LSIPerson.m */,
 				BD9AA50A2371D64500E8D4EF /* LSIPersonTableViewCell.m */,
 				BD9AA50F2371D87700E8D4EF /* LSILog.h */,
 				BD9AA50C2371D74900E8D4EF /* Person Search TableView */,
@@ -237,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9AA4DF2371D53400E8D4EF /* AppDelegate.m in Sources */,
+				9E2C122B2371E4A70083EF4E /* LSIPerson.m in Sources */,
 				BD9AA5082371D58300E8D4EF /* LSIPersonSearchTableViewController.m in Sources */,
 				BD9AA50B2371D64500E8D4EF /* LSIPersonTableViewCell.m in Sources */,
 				BD9AA4F02371D53500E8D4EF /* main.m in Sources */,
